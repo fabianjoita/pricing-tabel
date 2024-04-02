@@ -1,0 +1,56 @@
+.pricing-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    justify-content: space-around;
+}
+
+.pricing-plan {
+    background-color: rgb(148, 140, 140);
+    border-radius: 3%;
+    flex: 0 0 400px;
+    justify-content: space-around;
+    padding: 2%;
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.plan-price {
+    font-weight: bold;
+    font-size: 150%;
+    padding: 5px;
+
+}
+
+.plan-features {
+    list-style-type: none;
+    padding: 5px;
+
+}
+
+.plan-button {
+    padding: 10px;
+    background-color: rgb(167, 7, 7);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+.sign {
+    color: aliceblue;
+}
+
+@media (max-width: 1300px) {
+    .pricing-container {
+        display: flex;
+        flex-flow: wrap;
+        width: 90%;
+    }
+    
+   
+}
